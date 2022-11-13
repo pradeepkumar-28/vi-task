@@ -3,12 +3,13 @@ import {
   EuiPageTemplate,
 } from "@elastic/eui";
 import Sidebar from "../layout/Sidebar/Sidebar";
+import DashbordBody from "../layout/Dashbord/DashbordBody";
 
 export default ({
   button = <></>,
-  content = <></>,
+  content = <DashbordBody/>,
   sidebar = <Sidebar/>,
-  header,
+  // header = <Header/>,
   panelled,
   bottomBorder = false,
   sidebarSticky,
@@ -25,11 +26,13 @@ export default ({
       <EuiPageTemplate.Sidebar sticky={sidebarSticky} minWidth='260px' paddingSize ="none">
         {sidebar}
       </EuiPageTemplate.Sidebar>
-      <EuiPageTemplate.Header {...header} rightSideItems={[button]} paddingSize="none"/>
-      <EuiPageTemplate.Section
+      {/* <EuiPageTemplate.Header  rightSideItems={[button]} paddingSize="none" className="EuiPageTemplate_Header">
+        {header}
+      </EuiPageTemplate.Header> */}
+      {/* <EuiPageTemplate.Section
         grow={false}
         bottomBorder={bottomBorder}
-      ></EuiPageTemplate.Section>
+      ></EuiPageTemplate.Section> */}
       <EuiPageTemplate.Section>{content}</EuiPageTemplate.Section>
     </EuiPageTemplate>
   );

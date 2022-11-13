@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import { EuiFieldSearch } from "@elastic/eui";
 
-function SearchBox() {
+const SearchBox = () => {
   return (
-    <div>SearchBox</div>
-  )
-}
-
+    <EuiFieldSearch
+      className="euiSearchBox"
+      placeholder="Search any topic or anyone in the community"
+      isClearable={false}
+      aria-label="Use aria labels when no actual label is in use"
+    />
+  );
+};
 export default SearchBox
