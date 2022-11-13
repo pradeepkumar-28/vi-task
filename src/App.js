@@ -1,10 +1,11 @@
 import React from 'react'
 import { EuiProvider } from '@elastic/eui';
+import Dashbord from './pages/Dashbord';
 
 function App() {
   return (
     <EuiProvider>
-      <div>App</div>
+      <Dashbord/>
     </EuiProvider>
   )
 }
