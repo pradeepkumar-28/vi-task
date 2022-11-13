@@ -21,7 +21,7 @@ function TeamMeetingPage() {
         </div>
         <div className='btn_Group'>
           <div className='leftSide_btn'>
-            <Button title="Unmute"/>
+            <Button title="Unmute" className=""/>
             <Button title="Stop Video"/>
             <Button title="Jump to Whiteboard"/>
           </div>
