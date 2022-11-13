@@ -14,10 +14,16 @@ import onlineUser2 from "../../assest/icons/onlineUser2.svg";
 import onlineUser3 from "../../assest/icons/onlineUser3.svg";
 import onlineChat from "../../assest/icons/onlineChat.svg";
 import Button from "../../component/Button";
+import { useNavigate } from "react-router";
 
 
 
 function UserOnlineCommunity() {
+    const naviagte = useNavigate()
+
+  const onContributeHandler=()=>{
+    naviagte("/TeamMeet")
+  }
   
   const LayoutData = [
     {
@@ -40,7 +46,7 @@ function UserOnlineCommunity() {
             <p className="rightSide_Layout_time_Count">Ends in 33 mins</p>
           </div>
           <div className="rightSide_Layout_BtnGroup">
-            <Button className="large-Btn" title="Contribute"  />
+            <Button className="large-Btn" title="Contribute" onClick={onContributeHandler}  />
             <Button className="large-Btn" title="View" />
           </div>
           <hr className="rightSide_Layout_hr" />
@@ -66,7 +72,7 @@ function UserOnlineCommunity() {
             <p className="rightSide_Layout_time_Count">Ends in 1 h</p>
           </div>
           <div className="rightSide_Layout_BtnGroup">
-            <Button className="large-Btn" title="Contribute" />
+            <Button className="large-Btn" title="Contribute" onClick={onContributeHandler} />
             <Button className="large-Btn" title="View" />
           </div>
           <hr className="rightSide_Layout_hr" />

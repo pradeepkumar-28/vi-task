@@ -1,8 +1,11 @@
 import React from 'react'
+import PopOver from '../component/Popover'
 
 function TeamMeetingPage() {
   return (
-    <div>TeamMeetingPage</div>
+    <div>
+      <PopOver/>
+    </div>
   )
 }
 
