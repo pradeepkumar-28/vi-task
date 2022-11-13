@@ -1,0 +1,73 @@
+.Header{
+    width: auto !important;
+    height: 62px;
+    border-radius: 8px !important;
+   
+}
+.euiSearchBox{
+    min-height: 30px !important;
+    width: 743px !important;
+    input{
+        width: 743px !important;
+    }
+}
+.euiSearchBox{
+    width: 743px !important;
+    box-shadow: none !important;
+    height: auto !important;
+    font-size: 12px !important;
+    font-family: 'Public Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 23px !important;
+    color: $theme-secondaryColor !important;
+    background-color: $theme-secondaryBgColor !important;
+}
+.euiSearchBox:focus{
+     outline: 0 !important;
+     background-image: none !important;
+}
+.euiSearchBox::placeholder{
+    width: 341px !important;
+    height: 23px !important;
+    left: 28px !important;
+    top: 0px !important;
+    font-family: 'Public Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 23px !important;
+    color: $theme-placeHolderColor !important;
+}
+
+// nav icons
+
+.langauge_Icon, .chat_Icon, .bookmark_Icon{
+    height: 24px !important;
+    width: 24px !important;
+}
+.notification_icon{
+    width: 27px !important;
+    height: 28px !important;
+    margin-bottom: 8px !important;
+}
+.user_icon{
+    width: 38px !important;
+    height: 38px !important;
+}
+
+// nav icons end
+
+.euiButtonEmpty__content{
+    padding: 0px !important;
+}
+.euiFormControlLayout{
+    max-width: none !important;
+}
+.euiFieldSearch:focus {
+    border-color: inherit !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+
