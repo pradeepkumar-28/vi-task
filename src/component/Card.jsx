@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import { EuiCard } from  '@elastic/eui';
 
-function Card() {
+function Card({title, description, footer, className}) {
   return (
-    <div>Card</div>
-  )
+    <EuiCard
+      textAlign="left"
+      title={title}
+      description={description}
+      footer={footer}
+      className={className}
+    />
+  );
 }
 
-export default Card
+export default Card;

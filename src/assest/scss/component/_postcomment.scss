@@ -1,0 +1,82 @@
+.comment_Box {
+    width: 743px !important;
+    margin-top: 26px;
+    height: 135px;
+    box-shadow: none !important;
+    background: $theme-secondaryBgColor;
+    border-radius: 8px;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+
+.comment_Box_Inside {
+    display: flex;
+}
+
+.comment_Box_Left {
+    height: 100%;
+    margin-top: 16px;
+}
+
+.comment_Box_img {
+    min-height: 48px;
+    min-width: 48px;
+}
+
+.comment_Box_Right {
+    height: 100px;
+    width: 647px;
+    border: 1px solid $theme-border;
+    border-radius: 8px;
+    margin-left: 16px;
+    margin-bottom: 19px;
+    margin-top: 16px;
+
+}
+
+.textArea {
+    border: none !important;
+    box-shadow: none !important;
+    height: 43px !important;
+    background-color: $theme-secondaryBgColor !important;
+}
+
+.textArea:focus {
+    outline: none !important;
+    outline: 0 !important;
+    background-image: none !important;
+}
+
+.comment_Box_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn_Group {
+    width: 220px;
+    height: 32px;
+    left: 377px;
+    top: 178px;
+    margin-block-end: 0px !important;
+    margin: 0px 0px 6px 11px
+}
+.post_btn {
+    min-height: 28px !important;
+    min-width: 70px !important;
+    background: $theme-primaryColor !important;
+    border-radius: 4px;
+    opacity: 0.3;
+    color: $theme-secondaryBgColor !important;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.433333px;
+    margin-right: 16px !important;
+    margin-bottom: 12px !important;
+    text-decoration: none !important;
+}
