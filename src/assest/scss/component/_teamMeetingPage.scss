@@ -1,0 +1,69 @@
+.TeamMeetingPage {
+    height: 100vh;
+    background-color: $theme-secondaryBgColor;
+
+    .TeamMeetingPage_Content {
+        display: flex;
+        margin-left: 20px;
+        gap: 8px;
+    }
+
+    .TeamMeetingPage_rightSide {
+    
+        .TeamMeetingPage_Card {
+            width: 358px !important;
+            height: 748px !important;
+            margin-top: 26px;
+            background: #F7F7F7 !important;
+            border-radius: 8px;
+            box-shadow: none !important;
+        }
+    }
+
+}
+
+
+.TeamMeetingPage_leftSide {
+    width: 60%;
+    .TeamMeetingPage_Title {
+        padding-top: 40px;
+        height: 26px;
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        color: #4A4A4A;
+        span {
+            font-weight: 200 !important;
+        }
+    }
+    .btn_Group{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .leftSide_btn{
+            display: flex;
+            gap: 16px;
+            margin-left: -10px;
+        }
+        .rightSide_btn{
+            margin-right: 50px;
+        }
+    }
+}
+
+.Image_layout {
+    padding-top: 16px;
+    display: flex;
+    gap: 16px;
+    flex-flow: row wrap;
+    list-style: none;
+    margin: 32px 0;
+
+    img {
+        width: 524px;
+        height: 291px;
+        border-radius: 8px !important;
+    }
+}
