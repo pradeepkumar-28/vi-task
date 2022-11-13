@@ -1,0 +1,70 @@
+.CommentsLayout {
+    display: flex;
+    margin-top: 16px;
+    width: 743px;
+}
+
+.CommentsLayout_Icon {
+    margin-top: -95px;
+    margin-block-end: 0 !important;
+}
+
+.comments_userInfo_Layout {
+    width: 743px;
+    height: 140px;
+    margin-left: 8px;
+    left: 358px;
+    top: 740px;
+    width: 655px;
+    background: #F7F7F7;
+    border-radius: 0px 8px 8px 8px;
+
+
+}
+
+.CommentsLayout_userInfo {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    margin-top: 16px;
+}
+
+.commentTime {
+    margin-left: auto;
+    width: 17px;
+    top: calc(50% - 26px/2 + 204px);
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: right;
+    color: #566A7F;
+    margin-right: 16px;
+}
+
+.comments_userInfo_Layout {
+    p {
+        margin-block-end: 0 !important;
+    }
+
+    img {
+        margin-block-end: 0 !important;
+    }
+}
+.comment_Title {
+    margin-left: 17px;
+    height: 41px;
+    left: 375px;
+    top: 786px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 14px;
+    span{
+        color: #A1ACB8 !important;
+    }
+}

@@ -1,0 +1,198 @@
+.main_Comment {
+    display: flex;
+    margin-top: 16px;
+}
+
+.highlight_Box {
+    box-shadow: none !important;
+    background: $theme-secondaryBgColor;
+    border-radius: 8px;
+    margin-top: 16px;
+    width: 743px !important;
+
+    .hr {
+        width: 711px !important;
+        height: 0px;
+        border: 1px solid #ECEEF1;
+    }
+}
+
+.main_Comment_Right_Bottom {
+    display: flex;
+    align-items: center;
+
+    .comment_Category_btn,
+    .bnt2 {
+        height: 26px !important;
+        min-width: 20px !important;
+        padding: 4px 8px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 16px;
+        color: #0354a6 !important;
+        background: #f0f5ff !important;
+        border-radius: 4px;
+        text-decoration: none !important;
+        margin-left: 6px;
+        margin-block-end: 0px !important;
+        margin-top: 7px;
+    }
+
+    .bnt2 {
+        background-color: #E1F7FE !important;
+        color: #407F93 !important;
+    }
+}
+
+.highlightbox_Top {
+    display: flex;
+    align-items: center;
+}
+
+.comment_Message_Box {
+    margin-top: 24px;
+}
+
+.comment {
+    height: 108px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #4A4A4A;
+    margin-bottom: 17px;
+    width: 711px !important;
+    span {
+        color: #A1ACB8 !important;
+    }
+
+}
+
+.comment_Message_Box_Footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    width: 727px;
+    .comment_icons {
+        margin-left: -10px;
+        margin-top: 16px;
+        margin-block-end: 0 !important;
+    }
+}
+
+.comment_Message_Box_Footer_Right {
+    display: flex;
+    align-items: center;
+    .comment_count {
+        margin-left: 4px;
+        width: 8px;
+        height: 20px;
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #697A8D;
+        margin-block-end: 0 !important;
+        margin-right: 23px;
+    }
+
+    .comment_chatIcon {
+        margin-block-end: 0 !important;
+    }
+}
+
+.highlightBox_desc {
+    width: 250px;
+    height: 26px;
+    left: 328px;
+    top: calc(50% - 26px / 2 - 222px);
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 25px;
+    color: #566a7f;
+    margin-left: 6px;
+}
+
+.main_Comment_Right {
+    display: flex;
+    flex-direction: column;
+
+    .main_Comment_Right_Top {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.commentBox_Flag {
+    margin-left: 10px;
+    margin-right: 7px;
+    margin-block-end: 0px !important;
+}
+
+.comment_Author_Name {
+    height: 16px;
+    top: 376px;
+    font-family: $theme-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #4a4a4a;
+    margin-block-end: 0px !important;
+}
+
+.userImg {
+    margin-block-end: 0px;
+}
+
+.dot {
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-block-end: 0px !important;
+}
+
+.comment_Author_Work_Place {
+    height: 26px;
+    left: 533px;
+    top: calc(50% - 26px / 2 - 176px);
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 25px;
+    color: #566a7f;
+    margin-block-end: 0px !important;
+}
+
+.dot_buttom {
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 7px;
+    margin-block-end: 0px !important;
+}
+
+.comment_Time {
+    font-family: "Public Sans";
+    font-size: 14px;
+    margin-top: 7px;
+    margin-left: 10px;
+    height: 26px;
+    left: 360px;
+    top: calc(50% - 26px / 2 - 148px);
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 25px;
+    color: #566a7f;
+    margin-block-end: 0px !important;
+}

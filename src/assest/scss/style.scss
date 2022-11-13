@@ -1,4 +1,16 @@
 @import "partials/variables";
+@import "partials/mixin";
 @import "component/sidebar";
 @import "component/header";
 @import "partials/genral";
+@import "component/postcomment";
+@import "component/highlightBox";
+@import "component/addcoment";
+@import "component/commentLayout";
+@import "component/postFooter";
+@import "component/usercommunity";
+
+.dashbordBody_flex{
+    display: flex;
+    gap: 27px;
+}

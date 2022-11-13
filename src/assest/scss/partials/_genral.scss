@@ -5,6 +5,8 @@
 }
 .css-10vmxdx-euiPageSection-grow-l-top-plain{
     background-color: $theme-bgColor !important;
+    min-height: 100% !important;
+
 }
 .css-1asjec2-euiPageSection__content-l-restrictWidth {
     inline-size: 0 !important; 
@@ -13,5 +15,14 @@
     margin-inline: 0 !important;
     margin-top: 16px;
     margin-left: 26px;
-    height: 62px;
+    height: 100%;
+    
 }
+
+.leftSide_headingBox {
+    width: 743px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+

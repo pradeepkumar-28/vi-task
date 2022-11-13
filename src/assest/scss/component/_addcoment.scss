@@ -1,0 +1,51 @@
+.addCommentLayout_Box {
+    margin-top: 16px;
+    display: flex;
+}
+.comment_TextArea {
+    box-shadow: none !important;
+    background-color: $theme-secondaryBgColor !important;
+    box-sizing: border-box;
+    max-width: 655px !important;
+    height: 52px;
+    border: 1px solid #ECEEF1 !important;
+    border-radius: 8px;
+    margin-left: 8px;
+    &:focus{
+        outline: none !important;
+        // outline: 0 !important;
+        background-image: none !important;
+    }
+    &::placeholder {
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        color: #A1ACB8;
+    }
+}
+
+.addCommentLayout_Box_Filter {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+
+    .addCommentLayout_Box_FilterBtn {
+        width: 77px;
+        height: 20px;
+        left: 302px;
+        top: 704px;
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+        color: #566A7F;
+        margin-right: 4px;
+    }
+
+    .polygynIcon {
+        margin-top: 2px;
+    }
+}
