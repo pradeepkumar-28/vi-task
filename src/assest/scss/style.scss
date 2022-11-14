@@ -1,14 +1,27 @@
+//variables
 @import "partials/variables";
+//mixin
 @import "partials/mixin";
+//media query break poins
+@import "partials/breakpoins";
+//sidebar
 @import "component/sidebar";
+//header
 @import "component/header";
+//genral
 @import "partials/genral";
+// post comment
 @import "component/postcomment";
+//highlight box
 @import "component/highlightBox";
+// add coment layout
 @import "component/addcoment";
+//comment layout
 @import "component/commentLayout";
+// dashbord footer scss
 @import "component/postFooter";
+// user online community scc
 @import "component/usercommunity";
+//team meet scc
 @import "component/teamMeetingPage";
-
 

@@ -4,7 +4,6 @@ import {
 } from "@elastic/eui";
 import Sidebar from "../layout/Sidebar/Sidebar";
 import DashbordBody from "../layout/Dashbord/DashbordBody";
-// eslint-disable-next-line
 export default ({
   content = <DashbordBody/>,
   sidebar = <Sidebar/>,
@@ -21,10 +20,11 @@ export default ({
       grow={grow}
       offset={offset}
     >
-      <EuiPageTemplate.Sidebar sticky={sidebarSticky} minWidth='260px' paddingSize ="none">
+     <EuiPageTemplate.Sidebar sticky={sidebarSticky} minWidth='260px' paddingSize ="none">
         {sidebar}
       </EuiPageTemplate.Sidebar>
-      <EuiPageTemplate.Section>{content}</EuiPageTemplate.Section>
+     <EuiPageTemplate.Section>{content}</EuiPageTemplate.Section>
     </EuiPageTemplate>
+  
   );
 };
