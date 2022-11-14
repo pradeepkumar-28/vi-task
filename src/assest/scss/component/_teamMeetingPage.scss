@@ -9,7 +9,7 @@
     }
 
     .TeamMeetingPage_rightSide {
-    
+
         .TeamMeetingPage_Card {
             width: 358px !important;
             height: 748px !important;
@@ -25,6 +25,7 @@
 
 .TeamMeetingPage_leftSide {
     width: 60%;
+
     .TeamMeetingPage_Title {
         padding-top: 40px;
         height: 26px;
@@ -34,21 +35,58 @@
         font-size: 18px;
         line-height: 25px;
         color: #4A4A4A;
+
         span {
             font-weight: 200 !important;
         }
     }
-    .btn_Group{
+
+    .btn_Group {
         width: 100%;
         display: flex;
         justify-content: space-between;
-        .leftSide_btn{
+
+        .leftSide_btn {
             display: flex;
             gap: 16px;
             margin-left: -10px;
+            margin-top: 10px;
         }
-        .rightSide_btn{
+
+        .rightSide_btn {
             margin-right: 50px;
+            margin-top: 10px;
+        }
+
+        .call_btn {
+            padding: 12px 24px;
+            text-decoration: none !important;
+            height: 48px;
+            left: 26px;
+            top: 726px;
+            background: #F7F7F7;
+            border-radius: 8px;
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            letter-spacing: 0.433333px;
+            color: #697A8D;
+        }
+
+        .call_disconectBtn {
+            padding: 12px 24px;
+            width: 163px;
+            height: 48px;
+            left: 867px;
+            top: 726px;
+            background: rgba(223, 113, 113, 0.1);
+            color: #DF7171;
+            flex: none;
+            order: 1;
+            flex-grow: 0;
         }
     }
 }
@@ -66,4 +104,236 @@
         height: 291px;
         border-radius: 8px !important;
     }
+
+    .Moderator {
+        padding: 4px 8px;
+        gap: 10px;
+        margin-top: 8px;
+        width: 67px;
+        position: absolute;
+        height: 24px;
+        left: 38px;
+        top: 94px;
+        background: #DEDEDE;
+        border-radius: 4px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 16px;
+    }
+}
+
+.TeamMeetingPage_rightSide {
+    .TeamMeetingPage_Card {
+        padding: 0 !important;
+    }
+}
+
+.chat_Section_Main {
+    width: 358px !important;
+
+    .chatSection_Btn {
+        width: 100%;
+        margin-top: -6.5px !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p {
+            margin-block-end: 0px !important;
+        }
+
+        .chat {
+            width: 36px;
+            margin-left: 80px;
+            margin-top: 16px;
+            left: 1136px;
+            top: 42px;
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 25px;
+            color: #5EADA8;
+        }
+
+        .participants {
+            width: 112px;
+            margin-top: 16px;
+            left: 1261px;
+            margin-right: 41px !important;
+            top: 42px;
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 16px;
+            line-height: 25px;
+            text-align: center;
+            color: #4A4A4A;
+        }
+    }
+
+    .hr_group {
+        display: flex;
+        align-items: center;
+        margin-top: 7px;
+
+        .hr_left,
+        .hr_right {
+            width: 163px;
+            height: 0px;
+            left: 1072px;
+            top: 75px;
+            background-color: #5EADA8;
+            border: 2px solid #5EADA8;
+        }
+
+        .hr_left {
+            margin-left: 16px !important;
+        }
+
+        .hr_right {
+            border: 2px solid #ECEEF1 !important;
+            margin-right: 16px !important;
+        }
+    }
+}
+
+.chatLayout {
+    display: flex;
+    margin-left: 16px;
+    margin-top: 24px !important;
+
+    .chatLayout_Icon {
+        margin-block-end: 0px !important;
+        margin-top: -55px;
+    }
+
+    .chat_userInfo {
+        .ChatLayout_userInfo {
+            display: flex;
+            align-items: center;
+
+            .country_Flag {
+                margin-left: 12px;
+                margin-right: 8px;
+            }
+
+            .chat_Author_Name {
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 16px;
+                color: #4A4A4A;
+            }
+
+            .chatTime {
+                margin-left: 105px;
+                margin-right: 24px;
+                width: 22px;
+                height: 26px;
+                left: 1368px;
+                top: calc(50% - 26px/2 - 286px);
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 200;
+                font-size: 12px;
+                line-height: 25px;
+                text-align: right;
+                color: #566A7F;
+            }
+        }
+
+        .chat_Title {
+            height: 66px;
+            left: 1124px;
+            width: 266px;
+            top: 125px;
+            margin-left: 12px;
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 14px;
+            line-height: 22px;
+            color: #000000;
+
+            span {
+                color: #5EADA8 !important;
+                text-decoration: underline !important;
+            }
+        }
+    }
+
+
+}
+
+.chat_Author_Name,
+.chat_Title,
+.chatTime,
+.country_Flag {
+    margin-block-end: 0px !important
+}
+
+.comment_post {
+    display: flex;
+    align-items: center;
+    margin-top: 37px;
+    width: 342px;
+    height: 100px;
+    left: 1064px;
+    top: 666px;
+    margin-left: 8px;
+    background: #FFFFFF;
+    border-radius: 8px;
+
+    .post_Box_Left {
+        margin-left: 12px;
+
+        .post_img {
+            min-width: 33px;
+            min-height: 33px;
+            margin-top: -40px;
+            margin-block-end: 0 !important
+        }
+    }
+}
+
+.post_textArea {
+    width: 250px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 8px;
+    box-shadow: none !important;
+    border-radius: none !important;
+    background-color: #FFFFFF !important;
+
+    &:focus {
+        outline: none !important;
+        outline: 0 !important;
+        background-color: #FFFFFF !important;
+        background-image: none !important;
+    }
+}
+
+.post_Box_btn {
+    margin-left: -44px;
+    width: 337px;
+    display: flex;
+    margin-bottom: 6px;
+
+    .btn_Group1 {
+        margin-block-end: 0 !important;
+        margin-left: 76px;
+    }
+}
+
+.chatImg {
+    width: 266px;
+    height: 133px;
+    left: 1124px;
+    top: 293px;
+    margin-left: 12px;
+
 }
