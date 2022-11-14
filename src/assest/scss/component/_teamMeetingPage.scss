@@ -30,11 +30,25 @@
         font-family: 'Public Sans';
         font-style: normal;
         font-weight: 500;
-        font-size: 18px;
         line-height: 25px;
         color: #4A4A4A;
         span {
             font-weight: 200 !important;
+        }
+        @include xs(){
+            font-size: 18px;
+        }
+        @include sm(){
+            font-size: 16px;
+        }
+        @include md(){
+            font-size: 18px;
+        }
+        @include lg(){
+            font-size: 18px;
+        }
+        @include xl(){
+            font-size: 18px;
         }
     }
     .btn_Group {
@@ -96,9 +110,27 @@
     margin: 32px 0;
 
     img {
-        width: 524px;
-        height: 291px;
         border-radius: 8px !important;
+        @include xs(){
+            width: 400px;
+            height: 291px;
+        }
+        @include sm(){
+            width: 480px;
+            height: 291px;
+        }
+        @include md(){
+            width: 524px;
+            height: 291px;
+        }
+        @include lg(){
+            width: 524px;
+            height: 291px;
+        }
+        @include xl(){
+            width: 524px;
+            height: 291px;
+        }
     }
 
     .Moderator {
