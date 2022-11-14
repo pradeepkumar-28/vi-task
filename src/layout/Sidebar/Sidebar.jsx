@@ -15,6 +15,7 @@ function Sidebar() {
                 const {name,append,prepend} = value
                 return(
                     <div className="sidebar_MenuItem">
+                      
                         <img src={prepend} className="menu_Prepend" />
                         <p className="menu_Title">{name}</p>
                         <img src={append} className="menu_Append" />

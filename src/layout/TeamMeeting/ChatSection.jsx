@@ -4,11 +4,9 @@ import flag1 from "../../assest/icons/chatUser/flag1.svg"
 import user2 from "../../assest/icons/chatUser/user2.svg"
 import flag2 from "../../assest/icons/chatUser/flag2.svg"
 import postUser from "../../assest/icons/chatUser/postUser.svg"
-import { EuiTextArea, EuiButton } from '@elastic/eui'
+import { EuiTextArea } from '@elastic/eui'
 import btnGroup from "../../assest/icons/btnGroup.svg"
 import sendBtn from "../../assest/icons/chatUser/sendBtn.svg"
-import chatImg from "../../assest/images/chatImg.png"
-
 
 function ChatSection() {
   
@@ -88,7 +86,7 @@ function ChatSection() {
             />
             <div className="post_Box_btn">
               <img src={btnGroup} alt="btn_group" className="btn_Group" />
-              <img src={sendBtn} className="btn_Group1"/>
+              <img src={sendBtn} className="btn_Group1" alt='btn_Group1'/>
             </div>
           </div>
           

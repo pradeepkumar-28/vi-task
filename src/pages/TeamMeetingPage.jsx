@@ -22,11 +22,11 @@ function TeamMeetingPage() {
         <div className='Image_layout'>
           <div className='moderatorImg'>
             <p className='Moderator'>Moderator</p>
-          <img src={moderatorImg}/>
+          <img src={moderatorImg}  alt="user"/>
           </div>
-          <img src={meetUser1}/>
-          <img src={meetUser2}/>
-          <img src={meetUser3}/>
+          <img src={meetUser1} alt="user"/>
+          <img src={meetUser2}  alt="user"/>
+          <img src={meetUser3}  alt="user"/>
         </div>
         <div className='btn_Group'>
           <div className='leftSide_btn'>

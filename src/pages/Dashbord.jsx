@@ -4,12 +4,10 @@ import {
 } from "@elastic/eui";
 import Sidebar from "../layout/Sidebar/Sidebar";
 import DashbordBody from "../layout/Dashbord/DashbordBody";
-
+// eslint-disable-next-line
 export default ({
-  button = <></>,
   content = <DashbordBody/>,
   sidebar = <Sidebar/>,
-  // header = <Header/>,
   panelled,
   bottomBorder = false,
   sidebarSticky,
@@ -26,13 +24,6 @@ export default ({
       <EuiPageTemplate.Sidebar sticky={sidebarSticky} minWidth='260px' paddingSize ="none">
         {sidebar}
       </EuiPageTemplate.Sidebar>
-      {/* <EuiPageTemplate.Header  rightSideItems={[button]} paddingSize="none" className="EuiPageTemplate_Header">
-        {header}
-      </EuiPageTemplate.Header> */}
-      {/* <EuiPageTemplate.Section
-        grow={false}
-        bottomBorder={bottomBorder}
-      ></EuiPageTemplate.Section> */}
       <EuiPageTemplate.Section>{content}</EuiPageTemplate.Section>
     </EuiPageTemplate>
   );

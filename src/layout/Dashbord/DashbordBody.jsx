@@ -1,5 +1,4 @@
 import React from "react";
-import { EuiFlexGroup, EuiFlexItem } from "@elastic/eui";
 import Header from "../Header/Header";
 import HighLightBox from "./HighLightBox";
 import PostComment from "./PostComment";
